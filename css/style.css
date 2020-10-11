@@ -125,7 +125,7 @@ a.navbar-brand {
 }
 
 #logo a img {
-    width: 100px
+    width: 150px
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -477,6 +477,12 @@ li>a:only-child:after {
     top: 0;
     left: 0;
     right: 0;
+}
+
+.banner-hny-info img{
+    justify-content: center;
+    width: 150px;
+    margin-top: -150px;
 }
 
 /* banner slider */
@@ -2920,7 +2926,7 @@ h3.tittle-w3ls.two {
 
 @media(max-width:600px) {
     #logo a img{
-        width: 60px;
+        width: 160px;
         margin-left: -29px;
     }
     .toggle{
@@ -2961,10 +2967,11 @@ h3.tittle-w3ls.two {
     .fake-radio {
     text-align: center;
     position: absolute;
-    top: 10%;
+    top: 13%;
 /*    right: 2%;*/
     z-index: 0;
 }
+    
     
 }
 
@@ -2986,6 +2993,11 @@ h3.tittle-w3ls.two {
     .nav_w3pvt {
         margin-top: 0em;
         padding: 0 1em;
+    }
+    #logo a img{
+        width: 120px;
+        margin-left: -29px;
+        margin-top: 7px;
     }
 }
 
