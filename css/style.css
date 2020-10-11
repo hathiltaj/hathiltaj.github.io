@@ -473,7 +473,7 @@ li>a:only-child:after {
 /*    padding: 14em 0;*/
     position: absolute;
     height: 100vh;
-
+    cursor: context-menu;
     top: 0;
     left: 0;
     right: 0;
@@ -2622,6 +2622,7 @@ h3.tittle-w3ls.two {
 
     .banner-hny-info h1 {
         font-size: 3.5em;
+        
     }
     .banner-hny-info h6 {
         font-size: 1.5em;
