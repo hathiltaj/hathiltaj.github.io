@@ -470,6 +470,7 @@ li>a:only-child:after {
 
 /* banner-hny-info */
 .banner-hny-info {
+    width: 100%;
 /*    padding: 14em 0;*/
     display: table;
     position: absolute;
