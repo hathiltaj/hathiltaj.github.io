@@ -191,7 +191,7 @@ li.log-vj a {
 
 .menu li a:hover, .active-nav{
     color: white;
-    border-bottom: 3.5px solid red
+    border-bottom: 3.5px solid #e4003f;
 }
 
 
@@ -275,7 +275,7 @@ li>a:only-child:after {
     margin-top: 0.83em;
 }
     .menu li a:hover, .active-nav{
-    color: red;
+    color: #e4003f;
     font-weight: 600;
     border-bottom: 0;
 }
@@ -536,6 +536,9 @@ li>a:only-child:after {
     bottom: 5%;
     width: 100%;
     z-index: 1;
+}
+.b-arrow img{
+/*    width: 20px;*/
 }
 
 .b-social{
@@ -926,17 +929,24 @@ li>a:only-child:after {
 .abt-img{
 /*    width: 100%;*/
 /*    object-fit: cover;*/
+/*    background: white;*/
     padding: 10% 0% 10% 15%;
+}
+.abt-img2{
+/*    width: 100%;*/
+/*    object-fit: cover;*/
+/*    background: white;*/
+/*    padding: 10% 0% 10% 15%;*/
 }
 
 .abt-left h1{
     float: right;
-    font-size: 40px;
+    font-size: 48px;
     color: rgb(227,0,37,1);
     margin-right: 14%;
     margin-top: 80px;
-    font-weight: bold;
-    margin-bottom: -10px;
+    font-weight: bolder;
+    margin-bottom: -12px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -946,18 +956,54 @@ li>a:only-child:after {
     border: 10px solid white;
     margin-bottom: 20px;
 }
+.abt-img2 img{
+/*    float: right;*/
+    width: 85%;
+    float: right;
+    border: 10px solid white;
+    margin-bottom: 20px;
+}
 
 .abt-left{
     background: linear-gradient(90deg, rgb(227,0,37,1) 65%, #fff 60%);
 }
 
 .abt-right{
-    padding-top: 80px;
-    padding-right: 80px;
-    background-image: url(../images/B%201%20%5BConverted%5D-01.png);
+    padding-top: 150px;
+    padding-right: 150px;
+    background-image: url(../images/JPEG/B%202-01.png);
      background-position: center;
 	background-size: cover;
 }
+.abt-right2{
+    margin-top: 20px;
+    
+/*    background: white;*/
+     background-position: center;
+	background-size: cover;
+}
+.about-r{
+    background: url(../images/B%201%20%5BConverted%5D-01.png)no-repeat center;
+    background-size: 100%;
+    padding-bottom: 130px;
+    padding-top: 100px;
+}
+.wyt-u{
+/*    margin-bottom: 150px;*/
+    padding-right: 130px;
+    background-color: white;
+    padding-left: 130px;
+}
+.grid-r{
+    position: absolute;
+    z-index: 2;
+    margin-left: 65px;
+}
+.grid-r img{
+    margin-top: 15px;
+    width: 76%;
+}
+
 
 .abt-right p{
     font-family: 'Montserrat', sans-serif;
@@ -973,10 +1019,22 @@ li>a:only-child:after {
     font-weight: 400;
 }
 
-hr.new2 {
-    margin-top: 0;
-  border-top: 3px  dashed #999;
+.abt-right2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
+
+.abt-right2 h3{
+    font-family: 'Montserrat', sans-serif;
+/*    font-size: 14px;*/
+    color: rgb(227,0,37,1);
+    font-weight: 400;
+}
+
 /*about*/
 
 /*contacts*/
@@ -989,7 +1047,7 @@ hr.new2 {
 }
 
 .contact-left{
-    background-color: red;
+    background-color: #e4003f;
 }
 
 .ctl{
@@ -1069,7 +1127,7 @@ background: linear-gradient(180deg, rgba(227,0,37,1) 0%, rgba(131,0,39,1) 61%);
     margin-top: -50px;
     background-color: #E4003F;
     color: white;
-    padding: 70px 0px;
+    padding: 50px 0px;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -1369,9 +1427,7 @@ ul.list-right-w3pvt-book.team-sing span {
 }
 
 /* Position the "next button" to the right */
-.left-arrow{
-  
-}
+
 a.prev, a.next{
     color: white !important;
 }
@@ -2567,6 +2623,25 @@ a.move-top span {
 /*--responsive--*/
 
 @media(max-width:1280px) {
+    .abt-right{
+        margin-top: -20px !important;
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+    .grid-r{
+        margin-left: 30px;
+    }
+    .abt-left h1{
+        color: white;
+        margin-left: 80px;
+        float: left;
+    }
+    .abt-right2{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    
     
 p.sub-tittle {
     font-size: 1em;
@@ -2768,6 +2843,7 @@ h3.tittle-w3ls.two {
     }
     .ct-text2{
         margin-top: 0;
+        margin-bottom: 60px;
         padding-top: 0;
     }
     .ct-text h2{
@@ -2777,14 +2853,30 @@ h3.tittle-w3ls.two {
     .abt-right{
         margin-top: 0px;
     padding-top: 0px;
-/*    padding-right: 80px;*/
+    padding-right: 50px;
     padding-left: 80px;
 }
+    .wyt-u{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .about-r{
+        padding-top: 0;
+    }
+    .abt-img2 img{
+        float: none;
+/*        text-align: center;*/
+    }
+    .abt-img2{
+        text-align: center;
+    }
     .abt-left{
     background: linear-gradient(180deg, rgb(227,0,37,1) 65%, #fff 60%);
 }
     .abt-left h1{
     color: white;
+    float: right;
+
 }
 }
 
