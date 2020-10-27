@@ -1040,7 +1040,7 @@ li>a:only-child:after {
 /*contacts*/
 
 .contacts-bg{
-    background:url('../images/contact.jpg') no-repeat 0px 0px;
+    background:url('../images/contact2new.jpg') no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
     background-position: center;
@@ -1102,7 +1102,7 @@ display: table;
     border: 1px solid #999;
 }
 .ct-text2 textarea{
-    min-height: 100px;
+    min-height: 150px;
 }
 
 .send-btn{
@@ -1135,11 +1135,11 @@ background: linear-gradient(180deg, rgba(227,0,37,1) 0%, rgba(131,0,39,1) 61%);
     color: white;
     margin: 0;
     font-size: small;
-    font-weight: 400;
+    font-weight: 500;
 }
 .sub-data span, .sub-data a{
     font-size: small;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 /*contacts end*/
@@ -1368,7 +1368,7 @@ ul.list-right-w3pvt-book.team-sing span {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: grey;
+  background: url(../images/bg_project.png) no-repeat center;
 }
 
 
@@ -3018,7 +3018,7 @@ h3.tittle-w3ls.two {
     }
     
     .b-arrow img{
-        width: 40px !important;
+        width: 18px !important;
     }
 }
 
