@@ -2820,7 +2820,7 @@ h3.tittle-w3ls.two {
 
 @media(max-width:768px) {
     .contacts-bg{
-    background:url('../images/contact2.jpg') no-repeat 0px 0px;
+    background:url('../images/contact2new.jpg') no-repeat 0px 0px;
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 	background-attachment: fixed;
