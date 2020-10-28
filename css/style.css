@@ -290,12 +290,12 @@ li>a:only-child:after {
     /* Stylinf the toggle lable */
     .toggle {
         display: block;
-        padding: 5px 15px;
+        padding: 5px 0px;
         font-size: 13px;
         text-decoration: none;
         border: none;
         float: right;
-        background-color: white;
+        background-color: transparent;
         color: black;
         cursor: pointer !important;
         margin-bottom: 0;
@@ -2851,8 +2851,8 @@ h3.tittle-w3ls.two {
 }
     
     .abt-right{
-        margin-top: 0px;
-    padding-top: 0px;
+        margin-top: 50px !important;
+    padding-top: 40px;
     padding-right: 50px;
     padding-left: 80px;
 }
