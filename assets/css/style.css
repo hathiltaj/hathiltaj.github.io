@@ -61,6 +61,10 @@ font-family: 'Montserrat', sans-serif;}
 
 /*Custom*/
 
+.section-title h1{
+    font-weight: 700;
+    color: #1c71a6;
+}
 .serv-cnt img{
     width: 100%;
 }
@@ -76,6 +80,7 @@ input[type="email"]
 {
     padding: 20px;
     border: none;
+    font-size: small;
     border-radius: 5px;
 /*
 -webkit-box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.16); 
@@ -85,6 +90,7 @@ box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.10);
 input[type="file"]{
        display: inline-block;
   width: 100%;
+    font-size: small;
   padding: 20px 0 0 0;
 /*  height: 100px;*/
 /*  overflow: hidden;*/
@@ -118,6 +124,25 @@ box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.10);
 .btn-new button:hover{
     background-color: #144887;
 }
+
+.about h1, .about p{
+    text-align: center;
+}
+
+.pi-btn button{
+/*    float: right;*/
+    transition: all 0.5s;
+    background-color: transparent;
+    color: #1c71a6;
+    border: 2px solid #1c71a6;
+    font-size: small;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.pi-btn button:hover{
+    background-color: #1c71a6;
+    color: white;
+}
 .content img{
     width: 100%;
     border-radius: 5px;
@@ -127,6 +152,18 @@ box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.10);
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+form{
+    color: #666;
+}
+
+.pi-ryt h1{
+    color: #1c71a6;
+    font-weight: 700;
+}
+.pi-ryt p{
+    text-align: center;
+    font-size: small;
 }
 .btn-abt{
     width: 100%;
@@ -170,7 +207,34 @@ box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.10);
 #abt-content p{
     font-size: 14px;
 }
+.pi-left{
+    overflow-x: hidden;
+}
 
+.port-form input[type='text'], .port-form input[type='email']{
+    padding: 8px 50px;;
+    margin: 10px;
+}
+
+.pi-left img{
+    width: 100vh;
+    
+}
+.pi-ryt{
+    display: flex;
+    vertical-align: middle;
+    padding: 20px 30px;
+    margin: auto;
+}
+
+.port-info{
+    padding:0px 20px 0px 0px;
+    background: #e9ebf7;
+    margin-top: -2px;
+/*    margin-right: 0px;*/
+    width: 100%;
+    
+}
 
 /*Custom Ends*/
 
@@ -548,27 +612,6 @@ section {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  position: relative;
-  margin-bottom: 30px;
-  color: #2f4d5a;
-  z-index: 2;
-}
-
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 122px;
-  height: 66px;
-  background: url(../img/section-title-bg.png) no-repeat;
-  z-index: -1;
-}
-
 .section-title p {
   margin-bottom: 0;
 }
@@ -657,7 +700,7 @@ section {
 .about h1 {
   font-weight: 700;
 /*  font-size: 34px;*/
-  color: #2f4d5a;
+  color: #1c71a6;
 /*  margin-bottom: 30px;*/
 }
 
@@ -1237,6 +1280,9 @@ section {
     #header.header-scrolled {
     padding: 15px;
   }
+    .port-info{
+        margin-top: -38px;
+    }
 }
 
 /*--------------------------------------------------------------
@@ -1536,4 +1582,11 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+    .pi-left img{
+    width: 110%;
+    
+}
+    .pi-left{
+        overflow-x: hidden;
+    }
 }
