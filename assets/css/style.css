@@ -60,6 +60,31 @@ font-family: 'Montserrat', sans-serif;}
 }
 
 /*Custom*/
+.contact-left{
+    width: 100%;
+}
+
+.contact-sec{
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+.contact-icon i{
+    background: #1c71a6;
+    border-radius: 50px;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.contact-left h5, .contact-ryt h5{
+    font-weight: 600;
+    color: #1c71a6;
+}
+.contact-left h6{
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 5px;
+}
 
 .section-title h1{
     font-weight: 700;
@@ -229,12 +254,13 @@ form{
 
 .port-info{
     padding:0px 20px 0px 0px;
-    background: #e9ebf7;
+    background: #f5f5f5;
     margin-top: -2px;
 /*    margin-right: 0px;*/
     width: 100%;
     
 }
+
 
 /*Custom Ends*/
 
@@ -673,7 +699,7 @@ section {
 /*  background: url("../img/about-bg.jpg") center center no-repeat;*/
   background-size: cover;
   padding: 60px 0;
-    background-color: #ebebeb;
+    background-color: #f5f5f5;
   position: relative;
 }
 
@@ -684,7 +710,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.75);
+/*  background: rgba(255, 255, 255, 0.75);*/
   z-index: 9;
 }
 
