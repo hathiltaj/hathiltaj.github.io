@@ -60,6 +60,17 @@ font-family: 'Montserrat', sans-serif;}
 }
 
 /*Custom*/
+form a{
+    margin-left: 20px;
+    color: #666;
+    font-size: 14px;
+    float: left;
+}
+form a:hover{
+    color: #444;
+    text-decoration: underline;
+}
+
 .contact-left{
     width: 100%;
 }
@@ -202,7 +213,8 @@ form{
     outline: none;
 }
 .btn-abt i{
-    font-size: 25px;
+    font-size: 18px;
+    font-style: normal;
     display: inherit;
 }
 .btn-abt span{
@@ -211,7 +223,7 @@ form{
 /*    padding-top: -40px;*/
 }
 .btn-abt:hover .spany{
-    font-size: 20px;
+    font-size: 18px;
     display: inherit;
 }
 .btn-abt:hover i{
@@ -333,7 +345,7 @@ form{
   color: #fff;
   padding: 20px 15px;
   transition: 0.3s;
-  font-size: 13px;
+  font-size: 14px;
     font-weight: 600;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -585,14 +597,14 @@ form{
 }
 
 #hero .btn-get-started {
-  font-size: 36px;
+  font-size: 14px;
   display: inline-block;
-  padding: 4px 0;
+  padding: 5px 15px;
   border-radius: 50px;
   transition: 0.3s ease-in-out;
   margin: 10px;
-  width: 64px;
-  height: 64px;
+/*  width: 64px;*/
+/*  height: 64px;*/
   text-align: center;
   border: 2px solid #fff;
   color: #fff;
@@ -792,7 +804,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
+  padding: 10px;
   position: relative;
   overflow: hidden;
     width: 100%;
@@ -1614,5 +1626,19 @@ section {
 }
     .pi-left{
         overflow-x: hidden;
+    }
+}
+
+@media (max-width: 469px) {
+    #abt-content{
+        margin-bottom: -2px;
+        max-height: 500px;
+        overflow-y: scroll;
+    }
+    .btn-abt:hover .spany{
+        font-size: 14px;
+    }
+    .btn-abt i{
+    font-size: 14px;
     }
 }
