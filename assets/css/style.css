@@ -60,6 +60,18 @@ font-family: 'Montserrat', sans-serif;}
 }
 
 /*Custom*/
+.partners-c h5{
+    color: #1c71a6;
+/*    display: flex;*/
+}
+
+.aquarius h6{
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 5px;
+}
+
 form a{
     margin-left: 20px;
     color: #666;
@@ -284,7 +296,7 @@ form{
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 15px 0;
+  padding: 5px 0;
   background: linear-gradient(#1c71a6, #1c55a6);
 }
 
@@ -313,9 +325,9 @@ form{
 }
 
 #header .logo img {
-  padding: 0;
+  padding: 5px;
   margin: 0;
-  max-height: 40px;
+  max-height: 63px;
 }
 
 @media (max-width: 768px) {
@@ -596,7 +608,7 @@ form{
   text-shadow: -1px 0 2px #2f4d5a;
 }
 
-#hero .btn-get-started {
+#hero .btn-get-started,#hero .btn-get-started:hover {
   font-size: 14px;
   display: inline-block;
   padding: 5px 15px;
@@ -610,10 +622,6 @@ form{
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
-  padding-top: 8px;
-  background: rgba(255, 255, 255, 0.15);
-}
 
 @media (min-width: 1024px) {
     
@@ -1316,7 +1324,7 @@ section {
     margin-bottom: 110px;
   }
     #header.header-scrolled {
-    padding: 15px;
+    padding: 5px;
   }
     .port-info{
         margin-top: -38px;
@@ -1641,4 +1649,9 @@ section {
     .btn-abt i{
     font-size: 14px;
     }
+    #header .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 50px;
+}
 }
