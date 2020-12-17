@@ -305,7 +305,7 @@ form{
 #header .logo img {
   padding: 5px;
   margin: 0;
-  max-height: 63px;
+  max-height: 85px;
 }
 
 @media (max-width: 768px) {
