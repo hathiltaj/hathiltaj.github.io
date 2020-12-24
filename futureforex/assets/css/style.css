@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 .ff-container-fluid{
-    margin: 0px 40px;
+    margin: 0px 60px;
 }
 
 .ff-srv{
@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ff-srv-head h3 {
+    color: #762DC2;
   font-weight: 600;
   font-size: 28px;
   border-bottom: 2px solid lightgrey;
@@ -93,8 +94,64 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ff-srv h4{
-    font-size: large;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 600;
+    color: #452685;
+}
+
+.ff-features h3{
+    font-weight: 600;
+  font-size: 28px;
+    color: #762DC2;
+}
+
+.ff-features{
+    padding: 0px 40px 0 20px;
+}
+
+
+.ff-bl{
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    padding:0px 55px;
+}
+
+.ff-bl2{
+    padding-left:95px;
+}
+
+.ff-features p{
+    font-size: 12px;
+    color: #666;
+}
+
+.packages{
+    width: 100%;
+}
+
+.ff-pack{
+    min-height: 500px;
+    padding: 0;
+}
+
+.ff-pack img{
+    position: absolute;
+    width: 103%;
+}
+
+.ff-pack-sub{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.ff-pack-sub h3{
+    font-weight: 600;
+  font-size: 28px;
+    color: #A9FF4C;
+}
+
+.ff-pack-sub p{
+    font-size: 12px;
 }
 
 .services .content h6{
@@ -118,6 +175,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #partners{
 /*    background-image: url(../img/pa)*/
+}
+
+.ff-ftr img{
+    width: 250px;
+}
+
+.ftr-copyright{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Custom Ends*/
@@ -645,6 +711,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 28px;
+    color: #A9FF4C;
 /*    todo color*/
 }
 .about .content h6{
@@ -1663,10 +1730,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
+  background: #452685;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
-  color: #222222;
+  color: #fff;
   font-size: 14px;
 }
 
