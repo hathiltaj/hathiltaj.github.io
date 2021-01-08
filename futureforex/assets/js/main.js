@@ -39,6 +39,11 @@
       }
     }
   });
+    // modal
+    
+    $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
 
   // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
@@ -124,21 +129,6 @@
     $('#header').addClass('header-scrolled');
   }
 
-  // Back to top button
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('.back-to-top').fadeIn('slow');
-    } else {
-      $('.back-to-top').fadeOut('slow');
-    }
-  });
-
-  $('.back-to-top').click(function() {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1500, 'easeInOutExpo');
-    return false;
-  });
 
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
