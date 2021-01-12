@@ -29,6 +29,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Custom*/
 
+.inner-f{
+    display: block;
+    margin-left: auto;
+    width: 100%;
+    margin-right: auto;
+}
+
 .ff-icons img{
     padding: 4px;
     width: 30px;
@@ -52,7 +59,7 @@ p{
 
 .ff-partners{
     margin-top: 250px;
-    margin-left: 20px;
+/*    margin-left: 20px;*/
 }
 
 .ff-partners h3{
@@ -186,11 +193,11 @@ p{
 .ff-bl{
     border-right: 1px solid grey;
     border-left: 1px solid grey;
-    padding:0px 55px;
+    padding:0px 58px;
 }
 
 .ff-bl2{
-    padding-left:95px;
+    padding-left:100px;
 }
 
 .ff-features p{
@@ -210,11 +217,12 @@ p{
 .ff-pack img{
     position: absolute;
     width: 103%;
+    margin-left: -10px;
     z-index: -1;
 }
 
 .ff-pack-sub{
-    margin-left: 88px;
+    margin-left: 78px;
     margin-top: 30px;
 }
 
@@ -393,6 +401,7 @@ background: linear-gradient(0deg, rgba(62,103,0,1) 0%, rgba(132,217,4,1) 57%);
 /*  margin: 0;*/
 /*    margin-top: -10px;*/
   max-height: 45px;
+    padding-left: 20px;
 }
 
 @media (max-width: 768px) {
@@ -434,6 +443,7 @@ background: linear-gradient(0deg, rgba(62,103,0,1) 0%, rgba(132,217,4,1) 57%);
 .nav-menu .active > a {
     border-bottom: 3px solid #84d904;
 }
+
 
 .nav-menu .get-started a {
   background: #3498db;
@@ -723,7 +733,7 @@ background: linear-gradient(0deg, rgba(62,103,0,1) 0%, rgba(132,217,4,1) 57%);
 /*    background-attachment: fixed;*/
   }
     .ff-pack-sub{
-    margin-left: 88px;
+    margin-left: 78px;
     margin-top: 30px;
 }
     
@@ -837,6 +847,16 @@ background: linear-gradient(0deg, rgba(62,103,0,1) 0%, rgba(132,217,4,1) 57%);
     .ftr-copyright img{
         width: 100%;
     }
+    .points-ff h5{
+    font-weight: 400;
+}
+    .bg-ff{
+    width: 100%;
+    background-image: url(../img/QM06My1Xlc.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: left;
+}
 }
 
 @-webkit-keyframes up-down {
