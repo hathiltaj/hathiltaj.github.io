@@ -29,6 +29,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Custom*/
 
+.ftr-copyright img{
+    width: 400px;
+}
+
 .inner-f{
     display: block;
     margin-left: auto;
@@ -265,7 +269,9 @@ p{
     width: 250px;
 }
 
+
 .ftr-copyright{
+    padding: 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -459,11 +465,20 @@ background: linear-gradient(0deg, rgba(62,103,0,1) 0%, rgba(132,217,4,1) 57%);
   font-family: 'Roboto', sans-serif;
 }
 
-.nav-menu .active > a {
-    
-    border-bottom: 3px solid #84d904;
+.nav-menu .active > .ff-u-line {
+    background: #84d904;
+    width: 70px;
+    transition: ease all 0.3s;
 }
 
+
+.ff-u-line{
+    width: 5px;
+    height: 3px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: transparent;
+}
 
 .nav-menu .get-started a {
   background: #3498db;
@@ -541,6 +556,26 @@ background: linear-gradient(0deg, rgba(62,103,0,1) 0%, rgba(132,217,4,1) 57%);
   font-family: IcoFont;
   position: absolute;
   right: 15px;
+}
+
+.ff-part{
+    margin-bottom: 50px;
+}
+
+@media (min-width: 1710px) {
+    .ff-part{
+    margin-bottom: 150px;
+}
+    .imgy{
+        margin-top: 58px !important;
+        margin-left: -80px !important;
+    }
+    .ff-p-img img{
+        margin-top: 30px;
+    }
+    .ff-pack-sub {
+    margin-top: 56px !important;
+}
 }
 
 @media (max-width: 1366px) {
