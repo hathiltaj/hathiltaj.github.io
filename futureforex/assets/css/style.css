@@ -576,6 +576,30 @@ background: linear-gradient(0deg, rgba(62,103,0,1) 0%, rgba(132,217,4,1) 57%);
     .ff-pack-sub {
     margin-top: 56px !important;
 }
+    .about .content p:last-child, .services .content p, .ff-partners p , .ff-features p, .ff-pack-sub p{
+    font-size: 14px !important;
+}
+    .about .content h3, .ff-srv-head h3, .ff-partners h3, .ff-features h3, .ff-pack-sub h3 {
+  font-size: 32px;
+}
+.about .content h6{
+    font-size: 14px !important;
+}
+    .ff-srv h4{
+        font-size: 19px;
+    }
+    #header .logo img{
+        max-height: 55px;
+    }
+    .nav-menu a{
+        font-size: 15px;
+    }
+    .nav-menu .active > .ff-u-line{
+        width: 75px;
+    }
+    .points-ff h5{
+        font-size: 24px !important;
+    }
 }
 
 @media (max-width: 1366px) {
