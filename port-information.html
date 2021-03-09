@@ -22,6 +22,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=DM+Serif+Text&display=swap" rel="stylesheet">
 
 </head>
 
@@ -36,8 +37,8 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Services</a></li>
-          <li class="active"><a href="port-information.html">Port Information</a></li>
           <li><a href="contact-us.html">Contact Us</a></li>
 
         </ul>
@@ -50,14 +51,14 @@
       <section class="services port-info">
       <div>
         <div class="row">
-          <div class="col-md-6 pi-left">
+          <div class="col-md-6 pi-left mt-5 mb-5">
             <img src="assets/img/ship%20(3).jpeg">
             </div>
             <div class="col-md-6 pi-ryt">
             <div class="icon-boxes container mx-lg-5">
               <form>
-                  <h1 class="my-3">Port Information</h1>
-              <div class="form-row">
+                  <h1 class="my-3">Port Call Disbursement Account</h1>
+              <!-- <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Name"/>
                   <div class="validate"></div>
@@ -67,17 +68,36 @@
                   <input type="text" class="form-control" name="email" id="email" placeholder="Mail ID"/>
                   <div class="validate"></div>
                 </div>
-              </div>
+              </div> -->
                    <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Contact"/>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Vessel Name"/>
                 <div class="validate"></div>
               </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="ETA"/>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Port Name"/>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Cargo Details (Commodity/Quantity)"/>
+                <div class="validate"></div>
+              </div>
+
               <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Company Name"/>
                 <div class="validate"></div>
               </div>
-              <p>Port information available for registered clients only.</p>
-              <div class="pi-btn text-center"><button type="submit">Submit</button></div>
+              <div class="input-group mb-3">
+  <input type="file" class="form-control" id="inputGroupFile02">
+</div>
+<div class="form-group">
+<textarea placeholder="Description" class="form-control"></textarea>
+</div>
+              <a href="mailto:info@ships-360.com">or mail at info@ships-360.com</a>
+              <div class="pi-btn text-right"><button type="submit">Submit</button></div>
             </form>
             </div>
             </div>
